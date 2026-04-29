@@ -46,7 +46,8 @@ function GulfShoresRentalWebsite() {
   ];
 
   const weekdayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-
+const [calendarStartIndex, setCalendarStartIndex] = useState(0);
+const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
   const isBooked = (monthNumber, day) => {
     const formatted = `2026-${String(monthNumber).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
     return bookedDates.includes(formatted);
@@ -298,8 +299,26 @@ const calendarFeeds = {
             </div>
           </div>
 
-          <div className="mt-10 grid gap-8 lg:grid-cols-2">
-            {calendarMonths.map((month) => (
+          <div className="mt-8 flex items-center justify-between">
+  <button
+    onClick={() => setCalendarStartIndex(Math.max(0, calendarStartIndex - 1))}
+    disabled={calendarStartIndex === 0}
+    className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold disabled:opacity-40"
+  >
+    ‹ Previous Months
+  </button>
+
+  <button
+    onClick={() => setCalendarStartIndex(Math.min(calendarMonths.length - 2, calendarStartIndex + 1))}
+    disabled={calendarStartIndex >= calendarMonths.length - 2}
+    className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold disabled:opacity-40"
+  >
+    Next Months ›
+  </button>
+</div>
+
+<div className="mt-10 grid gap-8 lg:grid-cols-2">
+  {visibleMonths.map((month) => (
               <div key={month.month} className="rounded-[2rem] bg-slate-50 p-6 shadow-sm ring-1 ring-slate-200">
                 <h3 className="text-xl font-semibold text-slate-900">{month.month}</h3>
                 <div className="mt-6 grid grid-cols-7 gap-2">
