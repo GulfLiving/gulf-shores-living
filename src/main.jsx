@@ -192,12 +192,19 @@ const calendarFeeds = {
               <p className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-4 py-1 text-sm font-medium text-sky-700">
                 Gulf Shores, Alabama Waterfront Rental
               </p>
-              <h1 className="mt-5 text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-                Gulf Shores Living
-              </h1>
-              <p className="mt-4 text-xl text-slate-700 sm:text-2xl">
-                Private waterfront getaway with dock, fishing, and peaceful lagoon views.
-              </p>
+              <div className="mt-5 space-y-4">
+  <h1 className="text-6xl sm:text-7xl lg:text-8xl font-serif font-semibold italic tracking-tight leading-none text-slate-900">
+    Gulf Shores Living
+  </h1>
+
+  <div className="text-xs sm:text-sm uppercase tracking-[0.6em] text-sky-700">
+    Private Waterfront Escape
+  </div>
+</div>
+
+<p className="mt-6 text-xl text-slate-700 sm:text-2xl">
+  Private waterfront getaway with dock, fishing, and peaceful lagoon views.
+</p>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
                 Escape the crowds and enjoy a quiet stay on the water with a private dock, easy beach access,
                 and everything you need for a relaxing Gulf Shores trip. Gulf Shores Living combines lagoon-front
