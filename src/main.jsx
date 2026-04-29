@@ -496,7 +496,7 @@ const calendarFeeds = {
                 <a href="https://watervilleusa.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>Waterville USA</strong><br/><span className="text-sm text-slate-500">Waterpark & family fun</span></a>
                 <a href="https://www.thehangout.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>The Hangout</strong><br/><span className="text-sm text-slate-500">Iconic Gulf Shores dining</span></a>
                 <a href="https://www.gulfshores.com/things-to-do/beaches" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>Gulf Beaches</strong><br/><span className="text-sm text-slate-500">White sand beaches about 5.5 miles away</span></a>
-               <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200"><strong>Lagoon Front Setting</strong><br/><span className="text-sm text-slate-500">Quiet waterfront relaxation at the property</span></div>
+                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200"><strong>Lagoon Front Setting</strong><br/><span className="text-sm text-slate-500">Quiet waterfront relaxation at the property</span></div>
               </div>
             </div>
           </div>
