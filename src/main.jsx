@@ -529,16 +529,43 @@ const calendarFeeds = {
             </div>
 
             <div className="rounded-3xl bg-white p-8 text-slate-900 shadow-sm">
-              <h3 className="text-xl font-semibold">Direct booking details</h3>
-              <div className="mt-6 space-y-4 text-sm leading-6 text-slate-600">
-                <p><strong>Call or Text:</strong> <a href="tel:2513228464" className="font-semibold text-slate-900">251-322-8464</a></p>
-                <p><strong>Booking Style:</strong> Direct booking with phone contact</p>
-                <p><strong>Availability Sync Sources:</strong> Airbnb and Vrbo iCal calendar feeds</p>
-                <p><strong>Airbnb Feed:</strong> <span className="break-all">{calendarFeeds.airbnbImportUrl}</span></p>
-                <p><strong>Vrbo Feed:</strong> <span className="break-all">{calendarFeeds.vrboImportUrl}</span></p>
-                <p><strong>Site Calendar Export URL for Vrbo:</strong> <span className="break-all">{calendarFeeds.siteAvailabilityExportUrl}</span></p>
-                <p>Add your preferred booking form, pricing details, stay minimums, and payment instructions here.</p>
-                <p className="text-xs text-slate-500">Important: the site calendar export URL above is the one Vrbo should import after the site is deployed and the calendar file is live at that address.</p>
+              <h3 className="text-xl font-semibold">Booking Information</h3>
+
+<div className="mt-6 space-y-5 text-sm leading-7 text-slate-600">
+
+  <p>
+    <strong>Call or Text:</strong><br />
+    <a href="tel:2513228464" className="font-semibold text-slate-900">
+      251-322-8464
+    </a>
+  </p>
+
+  <p>
+    <strong>Booking Options:</strong><br />
+    Reserve directly by phone or book securely through Airbnb or Vrbo.
+  </p>
+
+  <p>
+    <strong>Property Features:</strong><br />
+    Waterfront • Private Dock • Sleeps 7 • Pet Friendly
+  </p>
+
+  <p>
+    <strong>Stay Details:</strong><br />
+    Contact for rates, minimum stays, seasonal availability, and pet policy.
+  </p>
+
+  <div className="pt-4 border-t border-slate-200">
+    <p className="text-sm font-medium text-slate-900">
+      Have questions before booking?
+    </p>
+
+    <p className="mt-2 text-sm">
+      We’re happy to help with dates, fishing info, beach access, and local recommendations.
+    </p>
+  </div>
+
+</div>
               </div>
             </div>
           </div>
