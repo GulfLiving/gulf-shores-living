@@ -46,8 +46,10 @@ function GulfShoresRentalWebsite() {
   ];
 
   const weekdayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-const [calendarStartIndex, setCalendarStartIndex] = useState(0);
-const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
+
+  const [calendarStartIndex, setCalendarStartIndex] = useState(0);
+  const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
+
   const isBooked = (monthNumber, day) => {
     const formatted = `2026-${String(monthNumber).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
     return bookedDates.includes(formatted);
@@ -192,19 +194,17 @@ const calendarFeeds = {
               <p className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-4 py-1 text-sm font-medium text-sky-700">
                 Gulf Shores, Alabama Waterfront Rental
               </p>
-              <div className="mt-5 space-y-4">
-  <h1 className="text-6xl sm:text-7xl lg:text-8xl font-serif font-semibold italic tracking-tight leading-none text-slate-900">
-    Gulf Shores Living
-  </h1>
-
-  <div className="text-xs sm:text-sm uppercase tracking-[0.6em] text-sky-700">
-    Private Waterfront Escape
-  </div>
-</div>
-
-<p className="mt-6 text-xl text-slate-700 sm:text-2xl">
-  Private waterfront getaway with dock, fishing, and peaceful lagoon views.
-</p>
+              <div className="mt-5 space-y-5">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-[-0.04em] font-serif italic drop-shadow-sm">
+                Gulf Shores Living
+              </h1>
+              <div className="mt-2 text-lg sm:text-xl lg:text-2xl font-light tracking-[0.22em] uppercase text-sky-700">
+                Private Waterfront Escape
+              </div>
+            </div>
+              <p className="mt-4 text-xl text-slate-700 sm:text-2xl">
+                Private waterfront getaway with dock, fishing, and peaceful lagoon views.
+              </p>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
                 Escape the crowds and enjoy a quiet stay on the water with a private dock, easy beach access,
                 and everything you need for a relaxing Gulf Shores trip. Gulf Shores Living combines lagoon-front
@@ -263,7 +263,7 @@ const calendarFeeds = {
             <div className="mt-6 space-y-4 text-sm">
               <div className="flex items-center justify-between border-b border-white/10 pb-3">
                 <span className="text-slate-300">Location</span>
-                <span className="font-medium">15672 State Hwy 180</span>
+                <a href="https://maps.google.com/?q=15672+State+Highway+180+Gulf+Shores+AL" target="_blank" rel="noreferrer" className="font-medium underline decoration-sky-400 underline-offset-4">15672 State Hwy 180 (Open Map)</a>
               </div>
               <div className="flex items-center justify-between border-b border-white/10 pb-3">
                 <span className="text-slate-300">Beach access</span>
@@ -289,7 +289,7 @@ const calendarFeeds = {
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Availability calendar</p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">See booked dates before you reserve</h2>
               <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-600">
-                This calendar shows the next four months of sample booking activity so guests can quickly see when
+                This calendar shows two months at a time. Use the arrows to browse upcoming availability while keeping the page cleaner and easier to scan so guests can quickly see when
                 dates are already blocked before they choose to call, book on Airbnb, or book on Vrbo. For the live site,
                 connect this section to your Airbnb and Vrbo iCal feeds.
               </p>
@@ -307,25 +307,24 @@ const calendarFeeds = {
           </div>
 
           <div className="mt-8 flex items-center justify-between">
-  <button
-    onClick={() => setCalendarStartIndex(Math.max(0, calendarStartIndex - 1))}
-    disabled={calendarStartIndex === 0}
-    className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold disabled:opacity-40"
-  >
-    ‹ Previous Months
-  </button>
+            <button
+              onClick={() => setCalendarStartIndex(Math.max(0, calendarStartIndex - 1))}
+              disabled={calendarStartIndex === 0}
+              className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold disabled:opacity-40"
+            >
+              ‹ Apr–May
+            </button>
+            <button
+              onClick={() => setCalendarStartIndex(Math.min(calendarMonths.length - 2, calendarStartIndex + 1))}
+              disabled={calendarStartIndex >= calendarMonths.length - 2}
+              className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold disabled:opacity-40"
+            >
+              Jun–Jul ›
+            </button>
+          </div>
 
-  <button
-    onClick={() => setCalendarStartIndex(Math.min(calendarMonths.length - 2, calendarStartIndex + 1))}
-    disabled={calendarStartIndex >= calendarMonths.length - 2}
-    className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold disabled:opacity-40"
-  >
-    Next Months ›
-  </button>
-</div>
-
-<div className="mt-10 grid gap-8 lg:grid-cols-2">
-  {visibleMonths.map((month) => (
+          <div className="mt-10 grid gap-8 lg:grid-cols-2">
+            {visibleMonths.map((month) => (
               <div key={month.month} className="rounded-[2rem] bg-slate-50 p-6 shadow-sm ring-1 ring-slate-200">
                 <h3 className="text-xl font-semibold text-slate-900">{month.month}</h3>
                 <div className="mt-6 grid grid-cols-7 gap-2">
@@ -340,12 +339,16 @@ const calendarFeeds = {
             ))}
           </div>
 
-          <div className="mt-8 rounded-3xl bg-slate-900 p-6 text-white">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-300">Live sync notes</p>
-            <p className="mt-3 text-sm leading-6 text-slate-300">
-              The sample booked dates shown here are placeholder dates for the design. On the live site, this calendar
-              should read from your Airbnb and Vrbo iCal feeds so the blocked dates stay current.
+          <div className="mt-8 rounded-3xl bg-sky-50 p-8 ring-1 ring-sky-200">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Plan your stay</p>
+            <h3 className="mt-3 text-2xl font-semibold text-slate-900">See dates you like? Reach out before they fill.</h3>
+            <p className="mt-4 max-w-3xl text-base leading-7 text-slate-600">
+              Use the availability calendar above as a quick guide, then call, text, or book through Airbnb or Vrbo to secure your preferred dates.
             </p>
+            <div className="mt-6 flex flex-wrap gap-4">
+              <a href="tel:2513228464" className="rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:scale-[1.02]">Call or Text to Book</a>
+              <a href="#book" className="rounded-2xl border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:scale-[1.02]">View Booking Options</a>
+            </div>
           </div>
         </div>
       </section>
@@ -488,14 +491,15 @@ const calendarFeeds = {
             <div className="rounded-3xl bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">Nearby highlights</h3>
               <div className="mt-6 space-y-3 text-slate-600">
-                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">The Wharf</div>
-                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">Peninsula Golf</div>
-                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">Waterville USA</div>
-                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">The Hangout</div>
-                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">Gulf beaches</div>
-                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">Quiet lagoon-front setting</div>
+                <a href="https://alwharf.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>The Wharf</strong><br/><span className="text-sm text-slate-500">Dining, shopping & entertainment</span></a>
+                <a href="https://www.peninsulagolfclub.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>Peninsula Golf</strong><br/><span className="text-sm text-slate-500">27-hole championship golf</span></a>
+                <a href="https://watervilleusa.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>Waterville USA</strong><br/><span className="text-sm text-slate-500">Waterpark & family fun</span></a>
+                <a href="https://www.thehangout.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>The Hangout</strong><br/><span className="text-sm text-slate-500">Iconic Gulf Shores dining</span></a>
+                <a href="https://www.gulfshores.com/things-to-do/beaches" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>Gulf Beaches</strong><br/><span className="text-sm text-slate-500">White sand beaches about 5.5 miles away</span></a>
+                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200"><strong>Lagoon Front Setting</strong><br/><span className="text-sm text-slate-500">Quiet waterfront relaxation at the property</span></div>
               </div>
             </div>
+          </div
           </div>
         </div>
       </section>
