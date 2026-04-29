@@ -490,19 +490,46 @@ const calendarFeeds = {
             </div>
             <div className="rounded-3xl bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">Nearby highlights</h3>
-              <div className="mt-6 space-y-3 text-slate-600">
-                <a href="https://alwharf.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>The Wharf</strong><br/><span className="text-sm text-slate-500">Dining, shopping & entertainment</span></a>
-                <a href="https://www.peninsulagolfclub.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>Peninsula Golf</strong><br/><span className="text-sm text-slate-500">27-hole championship golf</span></a>
-                <a href="https://watervilleusa.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>Waterville USA</strong><br/><span className="text-sm text-slate-500">Waterpark & family fun</span></a>
-                <a href="https://www.thehangout.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>The Hangout</strong><br/><span className="text-sm text-slate-500">Iconic Gulf Shores dining</span></a>
-                <a href="https://www.gulfshores.com/things-to-do/beaches" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200 hover:shadow-md transition"><strong>Gulf Beaches</strong><br/><span className="text-sm text-slate-500">White sand beaches about 5.5 miles away</span></a>
-                <div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200"><strong>Lagoon Front Setting</strong><br/><span className="text-sm text-slate-500">Quiet waterfront relaxation at the property</span></div>
+            <div className="mt-6 space-y-3 text-slate-600">
+
+<a href="https://alwharf.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">
+<strong>The Wharf</strong><br />
+<span className="text-sm text-slate-500">
+Dining, shopping & entertainment
+</span>
+</a>
+
+<a href="https://www.peninsulagolfclub.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">
+<strong>Peninsula Golf</strong><br />
+<span className="text-sm text-slate-500">
+27-hole championship golf
+</span>
+</a>
+
+<a href="https://watervilleusa.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">
+<strong>Waterville USA</strong><br />
+<span className="text-sm text-slate-500">
+Waterpark & family fun
+</span>
+</a>
+
+<a href="https://www.thehangout.com" target="_blank" rel="noreferrer" className="block rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">
+<strong>The Hangout</strong><br />
+<span className="text-sm text-slate-500">
+Iconic Gulf Shores dining
+</span>
+</a>
+
+<div className="rounded-2xl bg-white px-4 py-4 ring-1 ring-slate-200">
+<strong>Lagoon Front Setting</strong><br />
+<span className="text-sm text-slate-500">
+Quiet waterfront relaxation at the property
+</span>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <section id="book" className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="rounded-[2rem] bg-slate-900 px-8 py-12 text-white shadow-2xl lg:px-12">
           <div className="grid gap-10 lg:grid-cols-[1fr_420px] lg:items-center">
