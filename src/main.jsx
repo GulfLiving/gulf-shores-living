@@ -2,41 +2,18 @@ import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
 function GulfShoresRentalWebsite() {
-  const bookedDates = [
-    '2026-04-18',
-    '2026-04-19',
-    '2026-04-20',
-    '2026-04-26',
-    '2026-04-27',
-    '2026-05-03',
-    '2026-05-10',
-    '2026-05-11',
-    '2026-05-24',
-    '2026-05-25',
-    '2026-06-05',
-    '2026-06-06',
-    '2026-06-07',
-    '2026-06-19',
-    '2026-06-20',
-    '2026-06-21',
-    '2026-07-02',
-    '2026-07-03',
-    '2026-07-04',
-    '2026-07-05',
-    '2026-07-16',
-    '2026-07-17',
-    '2026-07-18',
-    '2026-07-27',
-    '2026-07-28',
-    '2026-08-08',
-    '2026-08-09',
-    '2026-08-10',
-    '2026-08-22',
-    '2026-08-23',
-    '2026-08-29',
-    '2026-08-30'
-  ];
+const [bookedDates, setBookedDates] = useState([]);
 
+useEffect(() => {
+  fetch('/api/calendar')
+    .then((response) => response.json())
+    .then((data) => {
+      setBookedDates(data.bookedDates || []);
+    })
+    .catch(() => {
+      setBookedDates([]);
+    });
+}, []);
   const calendarMonths = [
     { month: 'April 2026', daysInMonth: 30, startDay: 3, monthNumber: 4 },
     { month: 'May 2026', daysInMonth: 31, startDay: 5, monthNumber: 5 },
