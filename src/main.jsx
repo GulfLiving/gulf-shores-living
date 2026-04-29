@@ -525,11 +525,10 @@ Iconic Gulf Shores dining
 <span className="text-sm text-slate-500">
 Quiet waterfront relaxation at the property
 </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+</div>
+</div>
+</div>
+</section>
       <section id="book" className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="rounded-[2rem] bg-slate-900 px-8 py-12 text-white shadow-2xl lg:px-12">
           <div className="grid gap-10 lg:grid-cols-[1fr_420px] lg:items-center">
