@@ -26,7 +26,7 @@ useEffect(() => {
   const [calendarStartIndex, setCalendarStartIndex] = useState(0);
   const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
 
-  cconst images = {
+  const images = {
   heroSunset: '/images/gulf-shores-living/Back view.jpg',
 
   deckLoungers: '/images/gulf-shores-living/Beach chairs.jpg',
