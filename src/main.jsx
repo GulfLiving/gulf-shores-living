@@ -77,19 +77,67 @@ useEffect(() => {
     'Pet friendly'
   ];
 
-  const gallery = [
-  { title: 'Sunset Views', image: images.heroSunset },
-  { title: 'Dock & Fishing', image: images.privateDock },
-  { title: 'Outdoor Lounge', image: images.deckLoungers },
-  { title: 'Living Room', image: images.livingRoom },
-  { title: 'Kitchen', image: images.kitchen },
-  { title: 'Primary Bedroom', image: images.masterBedroom },
-  { title: 'Exterior', image: images.exterior },
-  { title: 'Entrance', image: images.entrance },
-  { title: 'Patio', image: images.patio },
-  { title: 'Water Toys', image: images.waterToys },
-  { title: 'Guest Bedroom', image: images.guestRoom },
-  { title: 'Bay Views', image: images.sunset2 }
+const gallery = [
+  {
+    title: 'Sunset Views',
+    image: images.heroSunset,
+    text: 'Peaceful bay views and sunset moments right from the property.'
+  },
+  {
+    title: 'Dock & Fishing',
+    image: images.privateDock,
+    text: 'Private pier access for fishing, relaxing, and enjoying the water.'
+  },
+  {
+    title: 'Outdoor Lounge',
+    image: images.deckLoungers,
+    text: 'Comfortable outdoor seating with room to relax by the water.'
+  },
+  {
+    title: 'Living Room',
+    image: images.livingRoom,
+    text: 'Bright living space with comfortable seating for the whole group.'
+  },
+  {
+    title: 'Kitchen',
+    image: images.kitchen,
+    text: 'Fully equipped kitchen for meals, snacks, and longer stays.'
+  },
+  {
+    title: 'Primary Bedroom',
+    image: images.masterBedroom,
+    text: 'Comfortable primary bedroom with a relaxing, private feel.'
+  },
+  {
+    title: 'Exterior',
+    image: images.exterior,
+    text: 'Easy arrival and a quiet Gulf Shores setting close to the beach.'
+  },
+  {
+    title: 'Entrance',
+    image: images.entrance,
+    text: 'Welcoming entryway for guests arriving for their stay.'
+  },
+  {
+    title: 'Patio',
+    image: images.patio,
+    text: 'Outdoor patio space made for lounging and enjoying the breeze.'
+  },
+  {
+    title: 'Water Toys',
+    image: images.waterToys,
+    text: 'Extras for enjoying time by the water during your stay.'
+  },
+  {
+    title: 'Guest Bedroom',
+    image: images.guestRoom,
+    text: 'Comfortable guest sleeping space for family or friends.'
+  },
+  {
+    title: 'Bay Views',
+    image: images.sunset2,
+    text: 'Open views of the bay and peaceful waterfront surroundings.'
+  }
 ];
 
   const isBooked = (monthNumber, day) => {
