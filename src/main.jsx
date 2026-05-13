@@ -27,7 +27,7 @@ useEffect(() => {
   const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
 
   const images = {
-  heroSunset: '/images/gulf-shores-living/View of the bay.jpg',
+  heroSunset: '/images/gulf-shores-living/View of the bay 2.jpg',
 
   deckLoungers: '/images/gulf-shores-living/Beach chairs.jpg',
 
