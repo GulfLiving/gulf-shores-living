@@ -26,14 +26,19 @@ useEffect(() => {
   const [calendarStartIndex, setCalendarStartIndex] = useState(0);
   const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
 
-  const images = {
-    heroSunset: '/images/gulf-shores-living/IMG_9805.jpg',
-    deckLoungers: '/images/gulf-shores-living/IMG_20250302_153107926_HDR.jpg',
-    privateDock: '/images/gulf-shores-living/2425203013250337272.jpg',
-    livingRoom: '/images/gulf-shores-living/living room.jpg',
-    kitchen: '/images/gulf-shores-living/IMG_0298.PNG',
-    masterBedroom: '/images/gulf-shores-living/master bed.jpg'
-  };
+  cconst images = {
+  heroSunset: '/images/gulf-shores-living/Back view.jpg',
+
+  deckLoungers: '/images/gulf-shores-living/Beach chairs.jpg',
+
+  privateDock: '/images/gulf-shores-living/IMG_5599.jpg',
+
+  livingRoom: '/images/gulf-shores-living/Living Room Area.jpg',
+
+  kitchen: '/images/gulf-shores-living/Dining Room.jpg',
+
+  masterBedroom: '/images/gulf-shores-living/Master bed.jpg'
+};
 
   const highlights = [
     'Waterfront on the lagoon',
