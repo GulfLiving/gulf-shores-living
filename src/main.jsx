@@ -78,37 +78,19 @@ useEffect(() => {
   ];
 
   const gallery = [
-    {
-      title: 'Waterfront Views',
-      image: images.heroSunset,
-      text: 'Big lagoon views that make mornings, afternoons, and sunsets feel like part of the stay.'
-    },
-    {
-      title: 'Deck & Outdoor Space',
-      image: images.deckLoungers,
-      text: 'A large waterfront deck with room to lounge, relax, and enjoy the breeze.'
-    },
-    {
-      title: 'Private Dock',
-      image: images.privateDock,
-      text: 'Private dock and pier access that make this home ideal for fishing and waterfront downtime.'
-    },
-    {
-      title: 'Living Area',
-      image: images.livingRoom,
-      text: 'Bright, open living spaces with comfortable seating and easy access to the deck.'
-    },
-    {
-      title: 'Kitchen',
-      image: images.kitchen,
-      text: 'Clean, spacious kitchen with plenty of prep space for family meals and longer stays.'
-    },
-    {
-      title: 'Primary Bedroom',
-      image: images.masterBedroom,
-      text: 'King bedroom with water views, patio access, and a private ensuite bath.'
-    }
-  ];
+  { title: 'Sunset Views', image: images.heroSunset },
+  { title: 'Dock & Fishing', image: images.privateDock },
+  { title: 'Outdoor Lounge', image: images.deckLoungers },
+  { title: 'Living Room', image: images.livingRoom },
+  { title: 'Kitchen', image: images.kitchen },
+  { title: 'Primary Bedroom', image: images.masterBedroom },
+  { title: 'Exterior', image: images.exterior },
+  { title: 'Entrance', image: images.entrance },
+  { title: 'Patio', image: images.patio },
+  { title: 'Water Toys', image: images.waterToys },
+  { title: 'Guest Bedroom', image: images.guestRoom },
+  { title: 'Bay Views', image: images.sunset2 }
+];
 
   const isBooked = (monthNumber, day) => {
     const formatted = `2026-${String(monthNumber).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
