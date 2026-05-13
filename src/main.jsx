@@ -27,19 +27,30 @@ useEffect(() => {
   const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
 
   const images = {
-  heroSunset: '/images/gulf-shores-living/Little Lagoon beach.jpg',
+  heroSunset: '/images/gulf-shores-living/View of bay 2.jpg',
 
   deckLoungers: '/images/gulf-shores-living/Beach chairs.jpg',
 
-  privateDock: '/images/gulf-shores-living/IMG_5599.jpg',
+  privateDock: '/images/gulf-shores-living/Pier.jpg',
 
   livingRoom: '/images/gulf-shores-living/Living Room Area.jpg',
 
-  kitchen: '/images/gulf-shores-living/Dining Room.jpg',
+  kitchen: '/images/gulf-shores-living/kitchen.jpg',
 
-  masterBedroom: '/images/gulf-shores-living/Master bed.jpg'
+  masterBedroom: '/images/gulf-shores-living/Master bedroom with tv.jpg',
+
+  sunset2: '/images/gulf-shores-living/View of bay.jpg',
+
+  exterior: '/images/gulf-shores-living/Front of propery.jpg',
+
+  entrance: '/images/gulf-shores-living/Entrance.jpg',
+
+  patio: '/images/gulf-shores-living/outdoor patio with loungers.jpg',
+
+  waterToys: '/images/gulf-shores-living/Water toys.jpg',
+
+  guestRoom: '/images/gulf-shores-living/Queen bedroom.jpg'
 };
-
   const highlights = [
     'Waterfront on the lagoon',
     'Private dock and pier access',
