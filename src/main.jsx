@@ -426,7 +426,11 @@ const gallery = [
         <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {gallery.map((item) => (
             <div key={item.title} className="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-200">
-              <img src={item.image} alt={item.title} className="h-64 w-full object-cover" />
+              <img
+  src={item.image}
+  alt={item.title}
+  className="w-full max-h-[280px] object-contain bg-white p-4"
+/>
               <div className="p-6">
                 <h3 className="text-lg font-semibold">{item.title}</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-600">{item.text}</p>
