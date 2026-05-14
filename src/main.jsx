@@ -80,7 +80,7 @@ const gallery = [
   },
   {
     title: 'Outdoor Lounge',
-    image: images.deckLoungers,
+    iimage: images.patio,
     text: 'Comfortable outdoor seating with room to relax by the water.'
   },
   {
