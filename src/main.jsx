@@ -26,6 +26,28 @@ useEffect(() => {
   const [calendarStartIndex, setCalendarStartIndex] = useState(0);
   const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
 
+  const images = {
+  heroSunset: '/images/gulf-shores-living/hero.jpg',
+  privateDock: '/images/gulf-shores-living/pier with ladder for swim.jpg',
+  deckLoungers: '/images/gulf-shores-living/outdoor patio with loungers.jpg',
+  livingRoom: '/images/gulf-shores-living/Living Room Area.jpg',
+  livingRoom2: '/images/gulf-shores-living/living room 2.jpg',
+  kitchen: '/images/gulf-shores-living/kitchen.jpg',
+  kitchen2: '/images/gulf-shores-living/kitchen 2.jpg',
+  kitchen3: '/images/gulf-shores-living/kitchen 3.jpg',
+  masterBedroom: '/images/gulf-shores-living/Master bedroom with tv.jpg',
+  masterBath: '/images/gulf-shores-living/Master Bath.PNG',
+  guestBedroom: '/images/gulf-shores-living/Queen bedroom.jpg',
+  guestBath: '/images/gulf-shores-living/guest bath.jpg',
+  exterior: '/images/gulf-shores-living/Front of propery.jpg',
+  backView2: '/images/gulf-shores-living/Back view 2.jpg',
+  bayView: '/images/gulf-shores-living/View of bay.jpg',
+  bayView2: '/images/gulf-shores-living/View of bay 2.jpg',
+  beachChairs: '/images/gulf-shores-living/Beach chairs.jpg',
+  waterToys: '/images/gulf-shores-living/Water toys.jpg',
+  picnic: '/images/gulf-shores-living/picnic table for lunch outside.jpg',
+  sittingArea: '/images/gulf-shores-living/Sitting area.jpg'
+};
  
   const highlights = [
     'Waterfront on the lagoon',
