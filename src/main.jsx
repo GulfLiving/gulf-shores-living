@@ -213,11 +213,10 @@ const gallery = [
             </div>
 
             <div className="overflow-hidden rounded-[2rem] bg-slate-200 shadow-2xl ring-1 ring-slate-200">
-              <img
-                src={images.heroSunset}
-                alt="Sunset charcuterie and drinks overlooking the lagoon at Gulf Shores Living"
-                className="h-full min-h-[420px] w-full object-cover"
-              />
+              <div
+  className="min-h-[420px] w-full bg-cover bg-center"
+  style={{ backgroundImage: `url(${images.heroSunset})` }}
+/>
             </div>
           </div>
         </div>
