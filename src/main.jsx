@@ -78,12 +78,7 @@ const gallery = [
     image: images.privateDock,
     text: 'Private pier access for fishing, relaxing, and enjoying the water.'
   },
-  {
-    title: 'Outdoor Lounge',
-    iimage: images.patio,
-    text: 'Comfortable outdoor seating with room to relax by the water.'
-  },
-  {
+    {
     title: 'Living Room',
     image: images.livingRoom,
     text: 'Bright living space with comfortable seating for the whole group.'
