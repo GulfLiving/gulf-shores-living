@@ -400,7 +400,7 @@ const gallery = [
 
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10 sm:col-span-2"><img src="/images/gulf-shores-living/IMG_0308.jpg" alt="Private dock at Gulf Shores Living" className="h-64 w-full object-cover object-bottom" /></div>
-              <div className="overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10"><img src="/images/gulf-shores-living/View of bay 2.jpg" alt="Deck loungers overlooking the water" className="h-48 w-full object-cover" /></div>
+              <div className="overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10"><<img src="/images/gulf-shores-living/View of bay 2.jpg" className="h-56 w-full object-cover object-center" /></div>
               <div className="overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10"><img src="/images/gulf-shores-living/pier with ladder for swim.jpg" alt="Waterfront sunset view" className="h-48 w-full object-cover" /></div>
             </div>
           </div>
