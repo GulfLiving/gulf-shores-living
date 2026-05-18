@@ -213,7 +213,9 @@ const gallery = [
     className="h-full min-h-[420px] w-full object-cover"
   />
 </div>
-        </header>
+</div>
+</div>
+</header>
 
       <section className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
         <div className="grid gap-6 md:grid-cols-3">
