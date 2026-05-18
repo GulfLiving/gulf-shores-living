@@ -110,12 +110,12 @@ const gallery = [
   },
   {
     title: 'Water Toys',
-    image: images.waterToys,
+    image: images.watertoys,
     text: 'Extras for enjoying time by the water during your stay.'
   },
   {
     title: 'Guest Bedroom',
-    image: images.guestRoom,
+    image: images.guestroom,
     text: 'Comfortable guest sleeping space for family or friends.'
   },
   {
