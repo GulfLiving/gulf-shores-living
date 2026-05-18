@@ -207,8 +207,8 @@ const gallery = [
               </div>
             </div>
 <div className="overflow-hidden rounded-[2rem] bg-slate-200 shadow-2xl ring-1 ring-slate-200">
-  <img
-  src="/images/gulf-shores-living/IMG_0308.jpg"
+ <img
+  src="/images/gulf-shores-living/lagoonbeach.jpg"
   alt="Little Lagoon beach near Gulf Shores Living"
   className="h-full min-h-[420px] w-full object-cover"
 />
