@@ -395,7 +395,7 @@ const gallery = [
 
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10 sm:col-span-2"><img src="/images/gulf-shores-living/IMG_0308.jpg" alt="Private dock at Gulf Shores Living" className="h-64 w-full object-cover object-bottom" /></div>
-              <div className="overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10"><img src="/images/gulf-shores-living/Viewofbay2.jpg" alt="Bay view from Gulf Shores Living" className="h-56 w-full object-cover object-center" /></div>
+              <div className="overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10"><img src="/images/gulf-shores-living/viewofbay2.jpg" alt="Bay view from Gulf Shores Living" className="h-56 w-full object-cover object-center" /></div>
               <div className="overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10"><img
   src="/images/gulf-shores-living/pier.jpg"
   alt="Waterfront sunset view"
