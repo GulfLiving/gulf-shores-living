@@ -90,7 +90,7 @@ const gallery = [
   },
   {
     title: 'Primary Bedroom',
-    image: images.masterBedroom,
+    image: images.masterbedroom,
     text: 'Comfortable primary bedroom with a relaxing, private feel.'
   },
   {
