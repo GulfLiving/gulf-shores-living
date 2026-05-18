@@ -206,16 +206,14 @@ const gallery = [
                 <span className="rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">Private Dock</span>
               </div>
             </div>
-
-            <img
-  src="/images/gulf-shores-living/Little Lagoon beach.jpg"
-  alt="Little Lagoon beach near Gulf Shores Living"
-  className="h-full min-h-[420px] w-full object-cover"
-/>
-            </div>
-          </div>
-        </div>
-      </header>
+<div className="overflow-hidden rounded-[2rem] bg-slate-200 shadow-2xl ring-1 ring-slate-200">
+  <img
+    src="/images/gulf-shores-living/Little Lagoon beach.jpg"
+    alt="Little Lagoon beach near Gulf Shores Living"
+    className="h-full min-h-[420px] w-full object-cover"
+  />
+</div>
+        </header>
 
       <section className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
         <div className="grid gap-6 md:grid-cols-3">
