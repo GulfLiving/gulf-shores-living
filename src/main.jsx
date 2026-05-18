@@ -70,7 +70,7 @@ const images = {
 const gallery = [
   {
     title: 'Lagoon Views',
-    image: images.heroSunset,
+    image: images.sunset2,
     text: 'Open waterfront views, calm waters, and the perfect Gulf Shores setting.'
   },
   {
