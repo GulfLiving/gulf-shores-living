@@ -27,18 +27,18 @@ useEffect(() => {
   const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
 
 const images = {
-  heroSunset: '/images/gulf-shores-living/little lagoon beach.jpg',
+  heroSunset: '/images/gulf-shores-living/littlelagoonbeach.jpg',
   privateDock: '/images/gulf-shores-living/pier.jpg',
-  deckLoungers: '/images/gulf-shores-living/outdoor lounge area.jpg',
-  livingRoom: '/images/gulf-shores-living/living room Area.jpg',
+  deckLoungers: '/images/gulf-shores-living/outdoorloungearea.jpg',
+  livingRoom: '/images/gulf-shores-living/livingroomarea.jpg',
   kitchen: '/images/gulf-shores-living/kitchen.jpg',
-  masterBedroom: '/images/gulf-shores-living/master bedroom with tv.jpg',
-  exterior: '/images/gulf-shores-living/front of propery.jpg',
+  masterBedroom: '/images/gulf-shores-living/masterbedroomwithtv.jpg',
+  exterior: '/images/gulf-shores-living/frontofpropery.jpg',
   entrance: '/images/gulf-shores-living/entrance.jpg',
-  patio: '/images/gulf-shores-living/outdoor patio with loungers.jpg',
-  waterToys: '/images/gulf-shores-living/water toys.jpg',
-  guestRoom: '/images/gulf-shores-living/queen bedroom.jpg',
-  sunset2: '/images/gulf-shores-living/view of bay 2.jpg'
+  patio: '/images/gulf-shores-living/outdoorpatiowithloungers.jpg',
+  waterToys: '/images/gulf-shores-living/watertoys.jpg',
+  guestRoom: '/images/gulf-shores-living/queenbedroom.jpg',
+  sunset2: '/images/gulf-shores-living/viewofbay2.jpg'
 };
  
   const highlights = [
