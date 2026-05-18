@@ -401,29 +401,6 @@ const gallery = [
           </div>
         </div>
       </section>
-<section id="video-tour" className="bg-white border-y border-slate-200">
-  <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-    <div className="mb-8">
-      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Video Tour</p>
-      <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-        Take a quick look around Gulf Shores Living
-      </h2>
-      <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-600">
-        Watch the video tour to get a better feel for the waterfront views, outdoor space, and layout before you book.
-      </p>
-    </div>
-
-    <div className="overflow-hidden rounded-[2rem] bg-slate-100 shadow-sm ring-1 ring-slate-200">
-      <video
-        controls
-        className="w-full max-h-[720px] bg-black"
-      >
-        <source src="/images/gulf-shores-living/video-tour.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
-</section>
      <section id="video-tour" className="bg-white border-y border-slate-200">
   <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
 
