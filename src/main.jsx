@@ -69,9 +69,9 @@ const images = {
 
 const gallery = [
   {
-    title: 'Sunset Views',
+    title: 'Lagoon Views',
     image: images.heroSunset,
-    text: 'Peaceful bay views and sunset moments right from the property.'
+    text: 'Open waterfront views, calm waters, and the perfect Gulf Shores setting.'
   },
   {
     title: 'Dock & Fishing',
