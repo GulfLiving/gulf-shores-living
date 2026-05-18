@@ -69,10 +69,10 @@ const images = {
 
 const gallery = [
   {
-    title: 'Lagoon Views',
-    image: images.sunset2,
-    text: 'Open waterfront views, calm waters, and the perfect Gulf Shores setting.'
-  },
+  title: 'Lagoon Views',
+  image: '/images/gulf-shores-living/lagoon.jpg',
+  text: 'Open waterfront views, calm waters, and the perfect Gulf Shores setting.'
+},
   {
     title: 'Dock & Fishing',
     image: images.privateDock,
