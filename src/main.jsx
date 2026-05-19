@@ -106,17 +106,13 @@ const gallery = [
     title: 'Living Room',
     image: '/images/gulf-shores-living/livingroomarea.jpg',
     images: [
-      '/images/gulf-shores-living/livingroom.jpg',
-      '/images/gulf-shores-living/livingroom2.jpg',
-      '/images/gulf-shores-living/livingroom3.jpg',
-      '/images/gulf-shores-living/livingroomarea.jpg',
-      '/images/gulf-shores-living/livingroomview2.jpg',
-      '/images/gulf-shores-living/sittingarea.jpg',
-      '/images/gulf-shores-living/sittingarea(2).jpg',
-      '/images/gulf-shores-living/sittingarea3.jpg',
-      '/images/gulf-shores-living/sittingroom.jpg',
-      '/images/gulf-shores-living/diningroom.jpg'
-    ],
+  '/images/gulf-shores-living/livingroomarea.jpg',
+  '/images/gulf-shores-living/livingroom.jpg',
+  '/images/gulf-shores-living/livingroom2.jpg',
+  '/images/gulf-shores-living/sittingarea.jpg',
+  '/images/gulf-shores-living/sittingroom.jpg',
+  '/images/gulf-shores-living/diningroom.jpg'
+],
     text: 'Comfortable seating, open living space, and relaxing waterfront atmosphere.'
   },
 
