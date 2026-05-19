@@ -405,10 +405,34 @@ const gallery = [
           </div>
         </div>
       </section>
-     <section id="video-tour" className="bg-white border-y border-slate-200">
+ <section id="video-tour" className="bg-white border-y border-slate-200">
   <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
     <div className="mb-8 text-center">
       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+        Video Tour
+      </p>
+
+      <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+        Walk Through Gulf Shores Living
+      </h2>
+
+      <p className="mt-4 text-lg text-slate-600">
+        Take a quick video tour of the home, waterfront, dock, and outdoor living spaces.
+      </p>
+    </div>
+
+    <div className="mx-auto w-full max-w-[360px] overflow-hidden rounded-[2rem] shadow-lg ring-1 ring-slate-200">
+      <iframe
+        className="aspect-[9/16] w-full"
+        src="https://www.youtube.com/embed/Yx5gkVrQwoE"
+        title="Gulf Shores Living Video Tour"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      />
+    </div>
+  </div>
+</section>
       <section id="gallery" className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Photo gallery</p>
