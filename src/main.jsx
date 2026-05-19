@@ -71,59 +71,114 @@ waterToys: '/images/gulf-shores-living/watertoys.jpg',
 
 const gallery = [
   {
-  title: 'Lagoon Views',
-  image: '/images/gulf-shores-living/lagoon.jpg',
-  text: 'Open waterfront views, calm waters, and the perfect Gulf Shores setting.'
-},
+    title: 'Waterfront Views',
+    image: '/images/gulf-shores-living/lagoon.jpg',
+    images: [
+      '/images/gulf-shores-living/lagoon.jpg',
+      '/images/gulf-shores-living/lagoonbeach.jpg',
+      '/images/gulf-shores-living/hero.jpg',
+      '/images/gulf-shores-living/IMG_0308.jpg',
+      '/images/gulf-shores-living/viewofbay.jpg',
+      '/images/gulf-shores-living/viewofbay2.jpg',
+      '/images/gulf-shores-living/waterview.png',
+      '/images/gulf-shores-living/backview.jpg',
+      '/images/gulf-shores-living/backview2.jpg',
+      '/images/gulf-shores-living/backviews.jpg'
+    ],
+    text: 'Open waterfront views and peaceful lagoon scenery throughout the property.'
+  },
+
   {
     title: 'Dock & Fishing',
-    image: images.privateDock,
-    text: 'Private pier access for fishing, relaxing, and enjoying the water.'
+    image: '/images/gulf-shores-living/pier.jpg',
+    images: [
+      '/images/gulf-shores-living/pier.jpg',
+      '/images/gulf-shores-living/pierwithladderforswim.jpg',
+      '/images/gulf-shores-living/watertoys.jpg',
+      '/images/gulf-shores-living/watertoys2.jpg',
+      '/images/gulf-shores-living/watertoys3.jpg',
+      '/images/gulf-shores-living/beachtoys.jpg'
+    ],
+    text: 'Private dock access, fishing, swimming, and waterfront fun.'
   },
-    {
+
+  {
     title: 'Living Room',
-    image: images.livingRoom,
-    text: 'Bright living space with comfortable seating for the whole group.'
+    image: '/images/gulf-shores-living/livingroomarea.jpg',
+    images: [
+      '/images/gulf-shores-living/livingroom.jpg',
+      '/images/gulf-shores-living/livingroom2.jpg',
+      '/images/gulf-shores-living/livingroom3.jpg',
+      '/images/gulf-shores-living/livingroomarea.jpg',
+      '/images/gulf-shores-living/livingroomview2.jpg',
+      '/images/gulf-shores-living/sittingarea.jpg',
+      '/images/gulf-shores-living/sittingarea(2).jpg',
+      '/images/gulf-shores-living/sittingarea3.jpg',
+      '/images/gulf-shores-living/sittingroom.jpg',
+      '/images/gulf-shores-living/diningroom.jpg'
+    ],
+    text: 'Comfortable seating, open living space, and relaxing waterfront atmosphere.'
   },
+
   {
     title: 'Kitchen',
-    image: images.kitchen,
-    text: 'Fully equipped kitchen for meals, snacks, and longer stays.'
+    image: '/images/gulf-shores-living/kitchen.jpg',
+    images: [
+      '/images/gulf-shores-living/kitchen.jpg',
+      '/images/gulf-shores-living/kitchen2.jpg',
+      '/images/gulf-shores-living/kitchen3.jpg'
+    ],
+    text: 'Fully equipped kitchen perfect for meals, snacks, and longer stays.'
   },
+
   {
-    title: 'Primary Bedroom',
-    image: images.masterBedroom,
-    text: 'Comfortable primary bedroom with a relaxing, private feel.'
+    title: 'Primary Suite',
+    image: '/images/gulf-shores-living/masterbedroomwithtv.jpg',
+    images: [
+      '/images/gulf-shores-living/masterbedroomwithtv.jpg',
+      '/images/gulf-shores-living/masterbath.png',
+      '/images/gulf-shores-living/masterbath2.jpg',
+      '/images/gulf-shores-living/mastertub.jpg',
+      '/images/gulf-shores-living/masterwalkincloset.jpg'
+    ],
+    text: 'Private primary suite with ensuite bath, tub, closet, and water views.'
   },
-  {
-    title: 'Exterior',
-    image: images.exterior,
-    text: 'Easy arrival and a quiet Gulf Shores setting close to the beach.'
-  },
-  {
-    title: 'Entrance',
-    image: images.entrance,
-    text: 'Welcoming entryway for guests arriving for their stay.'
-  },
-  {
-  title: 'Patio',
-  image: images.patio,
-  text: 'Outdoor patio space made for lounging and enjoying the breeze.'
-},
-  {
-  title: 'Water Toys',
-  image: images.waterToys,
-  text: 'Extras for enjoying time by the water during your stay.'
-},
+
   {
     title: 'Guest Bedroom',
-    image: images.guestRoom,
-    text: 'Comfortable guest sleeping space for family or friends.'
+    image: '/images/gulf-shores-living/queenbedroom.jpg',
+    images: [
+      '/images/gulf-shores-living/queenbedroom.jpg',
+      '/images/gulf-shores-living/queenbedroomwithconnectingbath.jpg',
+      '/images/gulf-shores-living/guestbedwithfullbed.jpg',
+      '/images/gulf-shores-living/guestbath.jpg',
+      '/images/gulf-shores-living/guestbath1.jpg'
+    ],
+    text: 'Comfortable guest accommodations for family and friends.'
   },
+
   {
-    title: 'Bay Views',
-    image: images.sunset2,
-    text: 'Open views of the bay and peaceful waterfront surroundings.'
+    title: 'Outdoor Living',
+    image: '/images/gulf-shores-living/patio.jpg',
+    images: [
+      '/images/gulf-shores-living/patio.jpg',
+      '/images/gulf-shores-living/outdoorpatiowithloungers.jpg',
+      '/images/gulf-shores-living/picnictableforlunchoutside.jpg',
+      '/images/gulf-shores-living/beachchairs.jpg',
+      '/images/gulf-shores-living/viewoutbackdoor.jpg'
+    ],
+    text: 'Outdoor seating, patio lounging, and relaxed waterfront living.'
+  },
+
+  {
+    title: 'Property Exterior',
+    image: '/images/gulf-shores-living/frontofproperty.jpg',
+    images: [
+      '/images/gulf-shores-living/frontofproperty.jpg',
+      '/images/gulf-shores-living/entrance.jpg',
+      '/images/gulf-shores-living/entrance2.jpg'
+    ],
+    text: 'Exterior views and welcoming entry access to the property.'
   }
 ];
 
