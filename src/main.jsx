@@ -105,12 +105,12 @@ const gallery = [
   },
   {
     title: 'Patio',
-    image: images.outdoorpatiowithloungers.jpg,
+    image: images.patio,
     text: 'Outdoor patio space made for lounging and enjoying the breeze.'
   },
   {
     title: 'Water Toys',
-    image: images.watertoys,
+    image: images.water Toys,
     text: 'Extras for enjoying time by the water during your stay.'
   },
   {
