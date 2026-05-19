@@ -24,6 +24,8 @@ useEffect(() => {
 
   const weekdayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   const [calendarStartIndex, setCalendarStartIndex] = useState(0);
+  const [selectedGallery, setSelectedGallery] = useState(null);
+const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(0);
   const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
 
 const images = {
