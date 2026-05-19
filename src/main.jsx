@@ -104,15 +104,15 @@ const gallery = [
     text: 'Welcoming entryway for guests arriving for their stay.'
   },
   {
-    title: 'Patio',
-    image: images.patio,
-    text: 'Outdoor patio space made for lounging and enjoying the breeze.'
-  },
+  title: 'Patio',
+  image: images.patio,
+  text: 'Outdoor patio space made for lounging and enjoying the breeze.'
+},
   {
-    title: 'Water Toys',
-    image: images.waterToys,
-    text: 'Extras for enjoying time by the water during your stay.'
-  },
+  title: 'Water Toys',
+  image: images.waterToys,
+  text: 'Extras for enjoying time by the water during your stay.'
+},
   {
     title: 'Guest Bedroom',
     image: images.guestRoom,
