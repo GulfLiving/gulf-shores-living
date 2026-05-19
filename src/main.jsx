@@ -415,11 +415,20 @@ const gallery = [
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-[2rem] bg-slate-200 shadow-sm ring-1 ring-slate-200">
-            <img
-  src={images.masterBedroom}
-  alt="Primary bedroom with king bed and water views"
-  className="w-full max-h-[420px] object-contain bg-white p-4"
-/>
+            <button
+  type="button"
+  onClick={() => {
+    setSelectedGallery(item);
+    setSelectedPhotoIndex(0);
+  }}
+  className="block w-full"
+>
+  <img
+    src={item.image}
+    alt={item.title}
+    className="w-full max-h-[280px] object-contain bg-white p-4 transition hover:scale-[1.02]"
+  />
+</button>
           </div>
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Sleeping arrangements</p>
