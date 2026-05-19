@@ -75,15 +75,11 @@ const gallery = [
     image: '/images/gulf-shores-living/lagoon.jpg',
     images: [
       '/images/gulf-shores-living/lagoon.jpg',
-      '/images/gulf-shores-living/lagoonbeach.jpg',
-      '/images/gulf-shores-living/hero.jpg',
       '/images/gulf-shores-living/IMG_0308.jpg',
       '/images/gulf-shores-living/viewofbay.jpg',
       '/images/gulf-shores-living/viewofbay2.jpg',
       '/images/gulf-shores-living/waterview.png',
       '/images/gulf-shores-living/backview.jpg',
-      '/images/gulf-shores-living/backview2.jpg',
-      '/images/gulf-shores-living/backviews.jpg'
     ],
     text: 'Open waterfront views and peaceful lagoon scenery throughout the property.'
   },
