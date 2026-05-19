@@ -35,8 +35,8 @@ const images = {
   masterBedroom: '/images/gulf-shores-living/masterbedroomwithtv.jpg',
   exterior: '/images/gulf-shores-living/frontofproperty.jpg',
   entrance: '/images/gulf-shores-living/entrance.jpg',
-  patio: '/images/gulf-shores-living/outdoorpatiowithloungers.jpg',
-  waterToys: '/images/gulf-shores-living/watertoys.jpg',
+  patio: '/images/gulf-shores-living/patio.jpg',
+waterToys: '/images/gulf-shores-living/watertoys.jpg',
   guestRoom: '/images/gulf-shores-living/queenbedroom.jpg',
   sunset2: '/images/gulf-shores-living/viewofbay2.jpg'
 };
