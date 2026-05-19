@@ -425,7 +425,7 @@ const gallery = [
     <div className="w-full max-w-[360px] overflow-hidden rounded-[2rem] shadow-lg ring-1 ring-slate-200">
   <iframe
     className="aspect-[9/16] w-full"
-    src="https://www.youtube.com/embed/Yx5gkVrQwoE"
+    src="https://www.youtube-nocookie.com/embed/Yx5gkVrQwoE"
     title="Gulf Shores Living Video Tour"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
