@@ -579,7 +579,54 @@ const gallery = [
           </div>
         </div>
       </section>
+{selectedGallery && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4">
+    <button
+      onClick={() => setSelectedGallery(null)}
+      className="absolute right-6 top-6 text-4xl text-white"
+    >
+      ×
+    </button>
 
+    <button
+      onClick={() =>
+        setSelectedPhotoIndex((prev) =>
+          prev === 0 ? selectedGallery.images.length - 1 : prev - 1
+        )
+      }
+      className="absolute left-4 text-5xl text-white"
+    >
+      ‹
+    </button>
+
+    <img
+      src={selectedGallery.images[selectedPhotoIndex]}
+      alt={selectedGallery.title}
+      className="max-h-[90vh] max-w-[90vw] rounded-2xl object-contain"
+    />
+
+    <button
+      onClick={() =>
+        setSelectedPhotoIndex((prev) =>
+          prev === selectedGallery.images.length - 1 ? 0 : prev + 1
+        )
+      }
+      className="absolute right-4 text-5xl text-white"
+    >
+      ›
+    </button>
+
+    <div className="absolute bottom-6 text-center text-white">
+      <div className="text-lg font-semibold">
+        {selectedGallery.title}
+      </div>
+
+      <div className="mt-2 text-sm text-slate-300">
+        {selectedPhotoIndex + 1} / {selectedGallery.images.length}
+      </div>
+    </div>
+  </div>
+)}
       <footer className="border-t border-slate-200 bg-slate-50">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <p>© 2026 Gulf Shores Living. All rights reserved.</p>
