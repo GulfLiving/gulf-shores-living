@@ -110,7 +110,7 @@ const gallery = [
   },
   {
     title: 'Water Toys',
-    image: images.water Toys,
+    image: images.waterToys,
     text: 'Extras for enjoying time by the water during your stay.'
   },
   {
