@@ -90,7 +90,7 @@ const gallery = [
   },
   {
     title: 'Primary Bedroom',
-    image: images.masterbedroom,
+    image: images.masterBedroom,
     text: 'Comfortable primary bedroom with a relaxing, private feel.'
   },
   {
@@ -110,12 +110,12 @@ const gallery = [
   },
   {
     title: 'Water Toys',
-    image: images.watertoys,
+    image: images.waterToys,
     text: 'Extras for enjoying time by the water during your stay.'
   },
   {
     title: 'Guest Bedroom',
-    image: images.guestroom,
+    image: images.guestRoom,
     text: 'Comfortable guest sleeping space for family or friends.'
   },
   {
