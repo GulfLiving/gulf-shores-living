@@ -105,7 +105,7 @@ const gallery = [
   },
   {
     title: 'Patio',
-    image: images.outdoorloungearea,
+    image: images.patio,
     text: 'Outdoor patio space made for lounging and enjoying the breeze.'
   },
   {
