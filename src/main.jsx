@@ -81,7 +81,6 @@ const gallery = [
       '/images/gulf-shores-living/viewofbay.jpg',
       '/images/gulf-shores-living/viewofbay2.jpg',
       '/images/gulf-shores-living/waterview.png',
-      '/images/gulf-shores-living/IMG_3653.png',
       '/images/gulf-shores-living/backview.jpg',
     ],
     text: 'Open waterfront views and peaceful lagoon scenery throughout the property.'
