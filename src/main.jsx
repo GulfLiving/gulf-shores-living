@@ -29,7 +29,7 @@ const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(0);
   const visibleMonths = calendarMonths.slice(calendarStartIndex, calendarStartIndex + 2);
 
 const images = {
-  heroSunset: '/images/gulf-shores-living/littlelagoonbeach.jpg',
+  heroSunset: '/images/gulf-shores-living/lagoonbeach.jpg',
   privateDock: '/images/gulf-shores-living/pier.jpg',
   deckLoungers: '/images/gulf-shores-living/outdoorloungearea.jpg',
   livingRoom: '/images/gulf-shores-living/livingroomarea.jpg',
