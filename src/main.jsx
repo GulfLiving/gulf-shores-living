@@ -76,10 +76,9 @@ const gallery = [
     images: [
       '/images/gulf-shores-living/lagoon.jpg',
       '/images/gulf-shores-living/backdeckphoto.jpg',
-      '/images/gulf-shores-living/deckphoto.jpg',
-      '/images/gulf-shores-living/skypic.png',
+      '/images/gulf-shores-living/deckphoto.PNG',
+      '/images/gulf-shores-living/skypic.PNG',
       '/images/gulf-shores-living/viewofbay.jpg',
-      '/images/gulf-shores-living/viewofbay2.jpg',
       '/images/gulf-shores-living/waterview.png',
       '/images/gulf-shores-living/backview.jpg',
     ],
