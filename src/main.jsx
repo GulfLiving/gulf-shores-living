@@ -79,8 +79,7 @@ const gallery = [
       '/images/gulf-shores-living/deckphoto.PNG',
       '/images/gulf-shores-living/skypic.PNG',
       '/images/gulf-shores-living/viewofbay.jpg',
-      '/images/gulf-shores-living/waterview.png',
-      '/images/gulf-shores-living/backview.jpg',
+          '/images/gulf-shores-living/backview.jpg',
     ],
     text: 'Open waterfront views and peaceful lagoon scenery throughout the property.'
   },
