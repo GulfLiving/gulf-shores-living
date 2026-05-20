@@ -594,7 +594,7 @@ const gallery = [
     <img
       src={selectedGallery.images[selectedPhotoIndex]}
       alt={selectedGallery.title}
-      className="max-h-[90vh] max-w-[90vw] rounded-2xl object-contain"
+     className="h-[80vh] w-[90vw] max-w-6xl rounded-2xl object-contain bg-black"
     />
 
     <button
